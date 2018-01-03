@@ -1,0 +1,82 @@
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #663300;
+}
+
+h1 {
+  font-size: 14px;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #21325B;
+}
+
+section {
+  font-size: 18px;
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  min-height: 40vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #080707;
+  bottom: 10px;
+}
+
+footer {
+  background-color: black;
+  color: gray;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  position: fixed;
+  text-align: center;
+  font-family: cursive, sans-serif;
+  width: 100%;
+  bottom: 0;
+}
+
+.well {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: rgba(255,255,255,0.75);
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+p{
+  font-size: 150%;
+  color: white;
+}
+
+.icon {
+  width: 15%;
+  height: 15%;
+}
+ 
+ .optionHovered {
+   background-color: yellow;
+ }
+ 
+ .option {
+   cursor: pointer;
+ }
+ 
+ .correct {
+   color: green;
+ }
+ 
+ .wrong {
+   color: red;
+ }

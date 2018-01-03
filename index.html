@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sarthak's Weather App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+  <body>
+<!--Main page shows links to other pages and a search bar-->
+<div data-role="page" id="homePage" data-theme="a"> 
+
+	<div data-role="header">
+		<h1>Sarthak's Weather App</h1>
+	</div>
+
+		<div role="main" class="ui-content">
+			<ul data-role="listview" data-filter="false" data-inset="true">
+				<li><a href="#page2" data-transition="turn">Show Local Weather</a></li>
+				<li><a href="#page4" data-transition="flow">Weather Forecast</a></li>
+				<li><a href="#page3" data-transition="pop">Weather Chart</a></li>
+			</ul>
+				<br>
+				<br>
+		</div>
+
+		<!--User searches for city and their result-->
+        <div id='box' data-role="content">
+		<form>
+		        <input type="search" name="city" id="city" placeholder="City Name">
+			<input type="submit" value="Get Weather Update" id="getweather">
+		</form>
+			
+		<div id="errorbox"> 
+			<span id="error" style="color:red"></span> 
+			<section class="weatherInfo2" id="localWeather2"></section>
+		</div> 
+        </div>
+</div>
+<!--End of main page-->
+
+<!--Shows the local weather for the user-->
+<div data-role="page" id="page2" data-dialog="true"> 
+	
+	<!--Header for the first page-->
+	<div data-role="header">
+                <h1>Your Local Weather</h1>
+	</div>
+	
+  <!--Local Weather is shown in this div contain-->
+	<div role="popup" class="ui-content">
+				<section class="weatherInfo" id="localWeather"></section>
+	</div>
+</div>
+<!--End of local weather div-->
+
+<!--Shows the local weather for the user-->
+<div data-role="page" id="page4" data-dialog="true"> 
+	
+	<!--Header for the first page-->
+	<div data-role="header">
+                <h1>Your Local Forecast</h1>
+	</div>
+	
+  <!--Forecast Weather is shown in this div contain-->
+	<div role="popup" class="ui-content">
+			<section class="weatherInfo2" id="localWeather3"></section>
+	</div>
+</div>
+<!--End of local weather div-->
+
+<!--Chart is shown in this div container containing a canvas-->
+<div data-role="page" id="page3" data-dialog="true">
+
+	<div data-role="header">
+		<h1>High & Low Temps</h1>
+	</div>
+<!--Canvas where the charts are shown-->
+        <div>
+	        <h1>Minimum Temperatures for Week</h1>
+		        <canvas id="minTemp"></canvas>
+		        <br>
+		        <br>
+			<h1>Maximum Temperatures for Week</h1>
+				<canvas id="maxTemp"></canvas>
+				<br>
+				<br>
+			<h1>Temperature Forecast</h1>
+			<canvas id="forecastTemp" width="800" height="600"></canvas>
+        </div>
+</div>
+<!--End of chart 1 div container-->
+ 
+</body>
+</html>
+
