@@ -1,7 +1,6 @@
-# Mobile WeatherApp 
-## Developed by Sarthak Sharma
+# Mobile WeatherApp.  Made using jQuery, HTML5, CSS.   
 
-## To start, double click index.html and select allow location
+To start, double click index.html and select allow location
 
 ![alt text](https://i.imgur.com/CeOurzG.png)
 ![alt text](https://i.imgur.com/KjRKMRk.png)
