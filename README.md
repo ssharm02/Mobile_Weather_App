@@ -1,4 +1,4 @@
-# Mobile WeatherApp.  Made using jQuery, HTML5, CSS.   
+## Mobile WeatherApp.  Made using jQuery, HTML5, CSS.   
 
 To start, double click index.html and select allow location
 
