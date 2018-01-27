@@ -1,6 +1,7 @@
 ## Mobile WeatherApp.  Made using jQuery, HTML5, CSS.   
 
 To start, double click index.html and select allow location
+To open project: right click on directory folder, hold shift + right click > powershell > type "ws" > type in one of the address that appears on the powershell window in the chrome browser.  
 
 ![alt text](https://i.imgur.com/CeOurzG.png)
 ![alt text](https://i.imgur.com/KjRKMRk.png)
