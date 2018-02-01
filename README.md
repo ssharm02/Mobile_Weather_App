@@ -1,7 +1,6 @@
 ## Mobile WeatherApp.  Made using jQuery, HTML5, CSS.   
 
-Geolocation based mobile jQuery wheather app, uses open weather map API to retreive and display weather data.  The graph charts are made using the open wheather map data and charts.js 
-
+Geolocation based mobile jQuery wheather app, uses open weather map API to retreive and display weather data.  
 ![alt text](https://i.imgur.com/CeOurzG.png)
 ![alt text](https://i.imgur.com/KjRKMRk.png)
 
